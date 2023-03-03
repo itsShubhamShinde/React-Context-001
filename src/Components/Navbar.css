@@ -1,0 +1,100 @@
+.NavbarmainDiv{
+    /* border: 2px solid blue; */
+    height: 30vh;
+    width: 100%;
+}
+.DisplayText{
+    /* border: 2px solid green; */
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Titlemenu{
+    /* border: 2px solid green; */
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+.Titlemenu h2{
+    /* border: 2px solid green; */
+    width: 35%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Titlemenu ul{
+    /* border: 2px solid green; */
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+}
+.buttonDiv{
+    /* border: 2px solid green; */
+    height:35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonDiv button{
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 30%;
+    background-color: #e9e9ed;
+    border-radius: 10px;
+    font-weight:bolder;
+    border: none;
+}
+
+@media only screen and (max-width: 380px) {
+  
+    .DisplayText{
+        font-size: .5rem;
+    }
+    
+    .Titlemenu h2{
+        font-size: .9rem;
+        padding-left: 10px;
+    }
+    .Titlemenu ul{
+        width: 60%;
+    }
+    .Titlemenu ul li{
+        font-size: .5rem;
+    }
+  
+    .buttonDiv button{
+        width: 60%;
+    } 
+
+}
+@media only screen and (min-width: 380px) and (max-width : 500px) {
+  
+    .DisplayText{
+        font-size: .5rem;
+    }
+    
+    .Titlemenu h2{
+        width: 30%;
+        font-size: .9rem;
+        padding-left: 20px;
+    }
+    .Titlemenu ul{
+        width: 50%;
+    }
+    .Titlemenu ul li{
+        font-size: .8rem;
+    }
+    
+    .buttonDiv button{
+        width: 50%;
+        font-size: .1rem;
+    } 
+
+}

@@ -1,0 +1,49 @@
+.ServicesDiv {
+    /* border: 2px solid blue; */
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ServicesDiv h1 {
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ServicesDiv p {
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 380px){
+    .ServicesDiv h1 {
+        font-size: 1rem;
+        font-style: italic;
+    }
+    
+    .ServicesDiv p {
+        height: 50%;
+        font-size: .5rem;
+    }
+}
+@media only screen and (min-width: 380px) and (max-width : 500px){
+    .ServicesDiv h1 {
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+    
+    .ServicesDiv p {
+        /* height: 50%; */
+        font-size: .8rem;
+    }
+}
