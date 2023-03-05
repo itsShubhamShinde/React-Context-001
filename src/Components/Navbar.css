@@ -93,8 +93,8 @@
     }
     
     .buttonDiv button{
-        width: 40%;
-        font-size: .5rem;
+        width: 50%;
+        font-size: .5 em;
     } 
 
 }
